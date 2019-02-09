@@ -11,6 +11,17 @@
     <body>
     <h1>My CSS Journal</h1>
     <article>
+        <time datetime="2019-02-09">Saturday, 9th February, 2019</time>
+        <p><code>background-clip</code> lets you control how far a background image or color extends beyond an elements padding or content.
+            <ul>
+                <li><code>border-box</code> is the default value. This allows the background to extend all the way to the outside edge of the element's border.</li>
+                <li><code>padding-box</code> clips the background at the outside edge of the element's padding and does not let it extend into the border.</li>
+                <li><code>content-box</code> clips the background at the edge of the content box.</li>
+                <li><code>inherit</code> applies the <code>background-clip</code> setting of the parent to the selected element.</li>
+            </ul>
+        </p>
+    </article>
+    <article>
         <time datetime="2019-02-08">Friday, 08th February, 2019</time>
         <p>The <code>box-sizing</code> property allows us to include the padding and the border in an elements total width and height. If you set <code>box-sizing: border-box;</code> on an element, padding and border are included in the width and height.</p>
         <p>When three padding values are specified, the first padding applies to the top, the second to the left and right, the third to the bottom.</p>
